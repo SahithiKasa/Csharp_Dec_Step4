@@ -21,7 +21,7 @@ namespace Csharp_Dec_Step4
             book.Add(1, "Chapter1");
             book.Add(2, "Chapter2");
             book.Add(3, "Chapter3");
-           // book.Add(3, "Chapter4");   we get error becuse dictionary doen not allow duplicate values
+            // book.Add(3, "Chapter4");   we get error becuse dictionary doen not allow duplicate values
             string chapterName = book[2];  //Chapter2
 
             //foreach (KeyValuePair<int,string> item in book)
@@ -84,13 +84,15 @@ namespace Csharp_Dec_Step4
                 Console.WriteLine($"{student.Key}: {student.Value}");
             }
 
-
-
-
-
-
-
-
         }
     }
 }
+
+
+
+
+
+
+
+        
+    

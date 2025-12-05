@@ -38,7 +38,7 @@ namespace CsharpCourse_DataStructures
             data[3] = 10000;   // update
             data.Remove(30);  // remove
 
-
+            data.Insert(2, 30);
 
             Console.WriteLine(data);
 

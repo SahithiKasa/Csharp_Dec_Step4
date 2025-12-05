@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -37,10 +38,13 @@ namespace CsharpCourse_DataStructures
             int indexOf30 = Array.IndexOf(numbers, 30);   //
 
             Console.WriteLine(indexOf30);
-           // FixedSizeArray();
+            // FixedSizeArray();
 
             int SecondValue = numbers[1];   // No need the any cast...
             Console.WriteLine(SecondValue);
         }
+
+        //int[] numbers = { 90, 80, 70, 30 };
+
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 
 
 namespace Csharp_Dec_Step4
@@ -36,6 +37,41 @@ namespace Csharp_Dec_Step4
 
             Console.WriteLine();
 
+            HashSet<string> newuserNames = new HashSet<string>() { "Ajay", "Ravi", "Rahul" };
+            //userNames.ExceptWith(newuserNames);
+            userNames.IntersectWith(newuserNames);
+            Console.WriteLine("\nAfter intersectWith:");
+            foreach (string name in newuserNames)
+            {
+
+                Console.WriteLine(name);
+            }
+
+                userNames.UnionWith(newuserNames);
+                Console.WriteLine("\nAfter UnionWith:");
+                foreach (string name1 in newuserNames)
+                {
+
+                    Console.WriteLine(name1);
+                    //userNames.IntersectWith(newuserNames);
+
+                }
+            HashSet<string> banneduserNames = new HashSet<string>() { "Ajay" };
+
+            userNames.ExceptWith(banneduserNames);
+            Console.WriteLine("\nAfter ExceptWith(Removed newuserNames):");
+            foreach (string names in banneduserNames)
+            {
+
+                Console.WriteLine(names);
+                //userNames.IntersectWith(newuserNames);
+
+            }
+        }
         }
     }
-}
+
+
+    
+
+    

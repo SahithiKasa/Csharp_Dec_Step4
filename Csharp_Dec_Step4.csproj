@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Csharp_Dec_Step4.DictionaryExample</StartupObject>
+    <StartupObject>Csharp_Dec_Step4.HashsetExample</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,6 +52,7 @@
     <Compile Include="4.Dictionary.cs" />
     <Compile Include="4.HashTable.cs" />
     <Compile Include="6.HashSet.cs" />
+    <Compile Include="ArraysExample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
